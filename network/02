@@ -6,5 +6,6 @@ broadcast=`ifconfig $eth0 | grep "inet " | cut -d " " -f 6`
 
 echo "Ethernet broadcast is $broadcast"
 echo "IPs in the same range (if any) : "
-ifconfig | sed -e '1h;2,$H;$!d;g' -e "s/$eth0.*$network//" | grep "$network" | cut -d " " -f 2 | tr '\n' " "
-echo ''
+echo $network
+# ifconfig | sed -e '1h;2,$H;$!d;g' -e "s/$eth0.*$network//" | grep "$network" | cut -d " " -f 2 | tr '\n' " "
+# echo ''

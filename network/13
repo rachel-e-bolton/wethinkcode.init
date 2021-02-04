@@ -1,1 +1,3 @@
-dig -x 192.168.88.241 +short
+dig -x 192.168.0.104 
+
+# For campus, doesn't really work for at home marking

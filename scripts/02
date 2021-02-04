@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 if id "$1" &>/dev/null; then
 	cd /
