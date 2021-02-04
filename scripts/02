@@ -1,0 +1,8 @@
+#/bin/bash
+
+if id "$1" &>/dev/null; then
+	cd /
+    userdel -f "$1"
+else
+    echo "$1 not found on system"
+fi

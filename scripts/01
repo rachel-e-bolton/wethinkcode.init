@@ -1,0 +1,3 @@
+#!/bin/bash
+
+awk -F: '!/#/{printf "%-30s %-6s %s\n", $1, $3, $6}' /etc/passwd

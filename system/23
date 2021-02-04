@@ -1,0 +1,3 @@
+After creating a new user account using `useradd`, log out from the current graphical session. The new user account will appear as an account to use when logging in. Type the password and press enter to login as the new user.
+
+For ssh access use the following new-user@localhost, type in the password when prompted.

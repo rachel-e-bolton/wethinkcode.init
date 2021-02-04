@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Get a random useless fact from the internet and add it to motd file, should be displayed when logging into console e.g. via ssh
+
+curl  "https://uselessfacts.jsph.pl/random.txt" 2> /dev/null | head -1 > /etc/motd

@@ -1,0 +1,4 @@
+  
+Adding the following entry to /etc/hosts will return the IP 46.19.122.85 for any requests for intra.42.fr
+
+46.19.122.85	intra.42.fr
